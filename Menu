@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BIT607 Ongaonga B&B Website</title>
+		<link rel="stylesheet" href="Style.css">		
+		<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+		
+		<!--Banner-->
+		<div class="banner">
+			<div class="banner-title">
+				<h1>Ongaonga Bed and Breakfast</h1>
+			</div>
+			<img src="Photos/RiverBanner.png" alt="Banner of New Zealand River" width="100%" class="banner-img">
+		</div>
+			
+		<!--Navigation Bar-->
+			<div class="nav-bar">
+				<ul class="nav-list">
+					<li class="nav-item"><a href="Home.html">Home</a></li>
+					<li class="nav-item"><a href="Contact.html">Contact</a></li>
+					<li class="nav-item"><a href="Hours.html">Hours</a></li>
+					<li class="nav-item"><a href="Menu.html">Menu</a></li>
+					<li class="nav-item"><a href="Reservations.html">Reservations</a></li>
+				</ul>
+			</div>
+	</head>
+	<body>
+		
+		<!--PageTitle-->
+		<div class="PageTitle">
+			<h2>| Menu</h2>
+		</div>
+			
+		<!--Contents-->
+		<section class="content">		
+			<div class="menu-photos">			
+				<div class="menu-item">
+								<h2> Appetizers | </h2>
+					<img src="Photos/App.jpg" alt="Rewena bread" width="500" class="menu-img">
+				</div>
+					<div class="menu-item">
+						<figcaption>REWENA BREAD </figcaption>
+						<p>Traditional Māori bread.</p>
+						<figcaption>PAUA FRITTER</figcaption>
+						<p>Finely diced pieces of paua, served with a side salad and horopito dressing.</p>
+						<figcaption>RAW FISH</figcaption>
+						<p>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.</p>
+						<figcaption>POACHED SALMON</figcaption>
+						<p>Salmon poached in an orange and pistachio glaze, served with rewena bread.</p>
+						<figcaption>SEAFOOD BASKET</figcaption>
+						<p>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
+				
+					</div>
+			</div>
+			
+			<div class="menu-photos">			
+				<div class="menu-item">
+								<h2> Main |</h2>
+					<img src="Photos/Main.jpg" alt="Fish and chips" width="500" class="menu-img">		
+				</div>
+					<div class="menu-item">					
+						<figcaption>FISH OF THE DAY</figcaption>
+						<p>Beer battered fish and kumara fries, served with a side salad and homemade tartare.</p>
+						<figcaption>MUSSELS AND SCALLOPS</figcaption>
+						<p>Steamed mussel and scallop mousse, honey and soy broth.</p>
+						<figcaption>SEAFOOD CHOWDER</figcaption>
+						<p>Creamy chowder filled with terakihi, prawn, hoki, scallops and mussels, served with flatbread.</p>
+						<figcaption>PORK BELLY</figcaption>
+						<p>Slow cooked pork belly served on a bed of apple slaw with roasted kumara, and crispy noodle.</p>
+						<figcaption>LAMB STEAK</figcaption>
+						<p>New Zealand Lamb coated in a kawakawa crumb, served with Dijon mustard glazed carrots, roasted butternut squash and a mushroom Jus.</p>
+						<figcaption>VENISON</figcaption>
+						<p>Venison crusted with horopito, served with glazed plums, cabbage salad and red wine Jus.</p>
+
+				</div>
+				
+
+			</div>	
+				
+			<div class="menu-photos">
+				<div class="menu-item">
+								<h2> Dessert |</h2>
+					<img src="Photos/Dessert.jpg" alt="Kapiti ice cream" width="500" class="menu-img">
+					
+				</div>	
+				<div class="menu-item">					
+						<figcaption>KĀPITI ICE CREAM</figcaption>
+						<p>Check for daily specials.</p>
+						<figcaption>STEAM PUDDING</figcaption>
+						<p>Golden syrup flavoured steam pudding, served with vanilla ice cream.</p>
+						<figcaption>MINI PAVLOVA</figcaption>
+						<p>Mini Pavlova served with kawakawa and lemon infused cream and fresh fruit.</p>
+						<figcaption>BANOFFEE PIE</figcaption>
+						<p>Toffee, fresh bananas and fresh cream.</p>
+				</div>
+				
+			</div>	
+
+			<div class="menu-photos">			
+				<div class="menu-item">
+								<h2>Drinks |</h2>
+					<img src="Photos/Drinks.jpg" alt="Wine bottles" width="500" class="menu-img">
+
+				</div>
+				<div class="menu-item">					
+						<figcaption>RED</figcaption>
+						<p>Terrace Edge Pinot Noir, 2012, Wairarapa</p>
+						<p>Altitude Pinot Noir, 2010, Marlborough</p>
+						<p>Greystone Pinot Noir, 2012, Wairarapa</p>
+						<p>Terrace Edge, Syrah, 2012 Wairarapa</p>	
+						<p>Altitude Syrah, 2010 Marlborough</p>
+						<p>Greystone Syrah, 2012, Wairarapa</p>
+						<p>Pegasus Bay Merlot, 2013, Waipara</p>
+						<p>Pegasus Bay Pinot Noir, 2013, Waipara</p>		
+						<figcaption>WHITE</figcaption>
+						<p>Spade Oak Pinot Gris, 2011, Gisborne</p>
+						<p>Maude Pinot Gris, 2017, Otago</p>
+						<p>Charles Wiffen Chardonnay, 2013, Otago</p>
+						<p>Amisfield, Riesling, 2016, Otago</p>	
+						<p>Lamont Riesling, 2010, Otago</p>
+						<p>Elephant Hill Viognier, 2013, Hawkes Bay</p>
+						<p>Folium Sauvignon Blanc, 2011, Marlborough</p>
+						<p>Billecart-Salmon Brut Reserve, France</p>
+						<figcaption>BEER and CIDER</figcaption>
+						<p>Garage project range</p>
+						<p>Tuatara range</p>
+						<p>Panhead range</p>
+						<p>Coopers Ale</p>	
+						<p>Heineken</p>
+						<p>Moa Cider</p>
+						<p>Crooked Cider</p>
+						<figcaption>NON-ALCOHOLIC</figcaption>
+						<p>Mineral water</p>
+						<p>Soft drinks</p>
+						<p>Juice</p>
+						<p>Coffee</p>	
+						<p>Tea</p>						
+				</div>
+				
+			</div>
+		</section>
+	</body>
+	
+	<!--Footer-->
+	<footer class="footer">
+		<div class="PrivacyStatement">
+			<h3>| Privacy Statement</h3>
+			<p>We collect personal information from you, including information about your name, contact information, billing or purchase information.
+				We collect your personal information in order to: book and/or stay in any room within Ongaonga Bed and Breakfast.
+				Providing some information is optional. If you choose not to enter any required information, we'll be unable to provide our service.
+				We keep your information safe by storing it securely and encrypting files, and only allowing staff at Ongaonga Bed & Breakfast to access it.
+				You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be corrected if you think it is wrong. 
+				If you’d like to ask for a copy of your information, or to have it corrected, please contact us at OngaongaBnB@fakeemail.com, or +00 555-5555, 
+				or 123 Tnettenba Road, Bay of Islands, Aotearoa.
+				</p>
+		</div>
+	<footer>
+</html>
